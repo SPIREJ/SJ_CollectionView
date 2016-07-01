@@ -1,0 +1,42 @@
+
+###   Core Layout Process(核心布局的处理过程)
+
+1. 先看看UICollectionView和UICollectionViewLayout是怎么配合工作的
+    图1-UICollectionLayout的工作过程。
+
+2. 自定义UICollectionViewLayout,主要实现方法有以下几个
+
+- (void)prepareLayout;
+    这个方法就是当你的布局快要生效的时候，你会在这个方法里计算好每个Item的position和CollectionView的size。为什么要在prepareLayout里面计算每个人item的Position，意图很明显就是别让系统每次滚动时候再去计算每个cell的frame。
+
+- (CGSize)collectionViewContentSize;
+    这个方法的意思就是返回CollectionView的ContentSize。注意是ContentSize而不是Size
+
+- (nullable NSArray<__kindof UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect;
+    返回collectionView视图中所有视图的属性(UICollectionViewLayoutAttributes)数组
+
+- (nullable UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath;
+    返回indexPath对应item的属性
+
+下面两个可选：SupplementaryView 和 DecorationView的布局
+- (nullable UICollectionViewLayoutAttributes *)layoutAttributesForSupplementaryViewOfKind:(NSString *)elementKind atIndexPath:(NSIndexPath *)indexPath;
+- (nullable UICollectionViewLayoutAttributes *)layoutAttributesForDecorationViewOfKind:(NSString*)elementKind atIndexPath:(NSIndexPath *)indexPath;
+
+- (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds;
+    当collectionView视图位置有新改变(发生移动)时调用，其若返回YES则重新布局；若item属性根据滑动改变，此时就需要随时进行布局改变
+
+
+### 精髓 ###
+UICollectionViewLayout的精髓在于你可以定义每个cell的UICollectionViewLayoutAttributes属性，包括
+
+@property (nonatomic) CGRect frame;
+@property (nonatomic) CGPoint center;
+@property (nonatomic) CGSize size;
+@property (nonatomic) CATransform3D transform3D;
+@property (nonatomic) CGRect bounds NS_AVAILABLE_IOS(7_0);
+@property (nonatomic) CGAffineTransform transform NS_AVAILABLE_IOS(7_0);
+@property (nonatomic) CGFloat alpha;
+@property (nonatomic) NSInteger zIndex; // default is 0
+
+通过定义transform3D属性可以实现视图的旋转、放大以及透视等效果
+

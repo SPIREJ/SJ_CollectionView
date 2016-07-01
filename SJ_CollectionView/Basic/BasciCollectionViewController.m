@@ -28,6 +28,9 @@
 
 - (UICollectionView *)basicCollectionView {
     if (_basicCollectionView == nil) {
+        /*
+         最简单的UICollectionFlowLayout效果,把一个个的Cell从左到右排,如果右边到屏幕头了,放不下了就跑到下一行继续从左到右排列一个个Cell,collectionview会根据你有没有设置minimumInteritemSpacing来设置你的每个cell的最小间距,和minimumLineSpacing来设置一行和一行的最小间距.
+         */
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         //全局设置，若需要单独设置cell尺寸或其他属性，请看 ReadMe-UICollectionViewFlowLayout 文件
         flowLayout.itemSize = CGSizeMake(kDeviceWidth, 100);
