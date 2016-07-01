@@ -1,0 +1,29 @@
+####   UICollectionViewDataSource   ###
+
+
+1. UICollectionViewCell结构上相对比较简单，由下至上：
+    1> 首先是cell本身作为容器view
+    2>然后是一个大小自动适应整个cell的backgroundView,用作cell平时的背景
+    3>再其次是selectedBackgroundView，是cell被选中时的背景
+    4>最后一个是contentView，自定义内容应被加载这个view上
+
+2.每个组（section）有多少条目数，必须实现
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section;
+
+3.返回某个indexPath对应的cell，必须实现
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath;
+
+4.有多少组（section）？非必须实现，如果没实现该方法时，默认为1组
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView;
+
+5.为collectionView添加一个补充视图（页眉或页脚）
+    kind = UICollectionElementKindSectionHeader / UICollectionElementKindSectionFooter
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath;
+
+6.NS_AVAILABLE_IOS(9_0) ios9新出 某个items是否可以被移动
+- (BOOL)collectionView:(UICollectionView *)collectionView canMoveItemAtIndexPath:(NSIndexPath *)indexPath;
+
+7.NS_AVAILABLE_IOS(9_0) ios9新出 移动items时调用
+- (void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath*)destinationIndexPath;
+

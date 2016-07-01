@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		096766A01D251CCC009932E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967669F1D251CCC009932E4 /* main.m */; };
 		096766A31D251CCC009932E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766A21D251CCC009932E4 /* AppDelegate.m */; };
-		096766A61D251CCC009932E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766A51D251CCC009932E4 /* ViewController.m */; };
 		096766A91D251CCC009932E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096766A71D251CCC009932E4 /* Main.storyboard */; };
 		096766AB1D251CCC009932E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096766AA1D251CCC009932E4 /* Assets.xcassets */; };
 		096766AE1D251CCC009932E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096766AC1D251CCC009932E4 /* LaunchScreen.storyboard */; };
 		096766B91D251CCC009932E4 /* SJ_CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766B81D251CCC009932E4 /* SJ_CollectionViewTests.m */; };
 		096766C41D251CCC009932E4 /* SJ_CollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766C31D251CCC009932E4 /* SJ_CollectionViewUITests.m */; };
+		096766D41D252144009932E4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766D31D252144009932E4 /* MainViewController.m */; };
+		096766D81D2521F0009932E4 /* UIView+LBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766D71D2521F0009932E4 /* UIView+LBExtension.m */; };
+		096766DE1D261F2A009932E4 /* ReadMe-UICollectionViewCell in Resources */ = {isa = PBXBuildFile; fileRef = 096766DC1D261F2A009932E4 /* ReadMe-UICollectionViewCell */; };
+		096766DF1D261F2A009932E4 /* ReadMe-UICollectionViewFlowLayout in Resources */ = {isa = PBXBuildFile; fileRef = 096766DD1D261F2A009932E4 /* ReadMe-UICollectionViewFlowLayout */; };
+		096766E21D261F6B009932E4 /* BasciCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766E11D261F6B009932E4 /* BasciCollectionViewController.m */; };
+		096766E41D262280009932E4 /* bgIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 096766E31D262280009932E4 /* bgIMG.png */; };
+		096766E61D262300009932E4 /* bgIMGII.png in Resources */ = {isa = PBXBuildFile; fileRef = 096766E51D262300009932E4 /* bgIMGII.png */; };
+		096766E91D264A8C009932E4 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766E81D264A8C009932E4 /* HeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		0967669F1D251CCC009932E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		096766A11D251CCC009932E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		096766A21D251CCC009932E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		096766A41D251CCC009932E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		096766A51D251CCC009932E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		096766A81D251CCC009932E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		096766AA1D251CCC009932E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096766AD1D251CCC009932E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,19 @@
 		096766BF1D251CCC009932E4 /* SJ_CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJ_CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096766C31D251CCC009932E4 /* SJ_CollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJ_CollectionViewUITests.m; sourceTree = "<group>"; };
 		096766C51D251CCC009932E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096766D21D252144009932E4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		096766D31D252144009932E4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		096766D61D2521F0009932E4 /* UIView+LBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LBExtension.h"; sourceTree = "<group>"; };
+		096766D71D2521F0009932E4 /* UIView+LBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LBExtension.m"; sourceTree = "<group>"; };
+		096766DA1D2522AA009932E4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		096766DC1D261F2A009932E4 /* ReadMe-UICollectionViewCell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReadMe-UICollectionViewCell"; sourceTree = "<group>"; };
+		096766DD1D261F2A009932E4 /* ReadMe-UICollectionViewFlowLayout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReadMe-UICollectionViewFlowLayout"; sourceTree = "<group>"; };
+		096766E01D261F6B009932E4 /* BasciCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasciCollectionViewController.h; sourceTree = "<group>"; };
+		096766E11D261F6B009932E4 /* BasciCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasciCollectionViewController.m; sourceTree = "<group>"; };
+		096766E31D262280009932E4 /* bgIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgIMG.png; sourceTree = "<group>"; };
+		096766E51D262300009932E4 /* bgIMGII.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgIMGII.png; sourceTree = "<group>"; };
+		096766E71D264A8C009932E4 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		096766E81D264A8C009932E4 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,12 @@
 		0967669D1D251CCC009932E4 /* SJ_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				096766DB1D261EEF009932E4 /* Basic */,
+				096766D91D25229C009932E4 /* Common */,
+				096766D51D2521BC009932E4 /* Category */,
+				096766D11D25212D009932E4 /* Main */,
 				096766A11D251CCC009932E4 /* AppDelegate.h */,
 				096766A21D251CCC009932E4 /* AppDelegate.m */,
-				096766A41D251CCC009932E4 /* ViewController.h */,
-				096766A51D251CCC009932E4 /* ViewController.m */,
 				096766A71D251CCC009932E4 /* Main.storyboard */,
 				096766AA1D251CCC009932E4 /* Assets.xcassets */,
 				096766AC1D251CCC009932E4 /* LaunchScreen.storyboard */,
@@ -138,6 +158,47 @@
 				096766C51D251CCC009932E4 /* Info.plist */,
 			);
 			path = SJ_CollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		096766D11D25212D009932E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				096766D21D252144009932E4 /* MainViewController.h */,
+				096766D31D252144009932E4 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		096766D51D2521BC009932E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				096766D61D2521F0009932E4 /* UIView+LBExtension.h */,
+				096766D71D2521F0009932E4 /* UIView+LBExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		096766D91D25229C009932E4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				096766DA1D2522AA009932E4 /* PrefixHeader.pch */,
+				096766E71D264A8C009932E4 /* HeaderView.h */,
+				096766E81D264A8C009932E4 /* HeaderView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		096766DB1D261EEF009932E4 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				096766E51D262300009932E4 /* bgIMGII.png */,
+				096766E31D262280009932E4 /* bgIMG.png */,
+				096766DC1D261F2A009932E4 /* ReadMe-UICollectionViewCell */,
+				096766DD1D261F2A009932E4 /* ReadMe-UICollectionViewFlowLayout */,
+				096766E01D261F6B009932E4 /* BasciCollectionViewController.h */,
+				096766E11D261F6B009932E4 /* BasciCollectionViewController.m */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +304,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096766E41D262280009932E4 /* bgIMG.png in Resources */,
 				096766AE1D251CCC009932E4 /* LaunchScreen.storyboard in Resources */,
+				096766E61D262300009932E4 /* bgIMGII.png in Resources */,
 				096766AB1D251CCC009932E4 /* Assets.xcassets in Resources */,
 				096766A91D251CCC009932E4 /* Main.storyboard in Resources */,
+				096766DE1D261F2A009932E4 /* ReadMe-UICollectionViewCell in Resources */,
+				096766DF1D261F2A009932E4 /* ReadMe-UICollectionViewFlowLayout in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +335,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096766A61D251CCC009932E4 /* ViewController.m in Sources */,
 				096766A31D251CCC009932E4 /* AppDelegate.m in Sources */,
+				096766E91D264A8C009932E4 /* HeaderView.m in Sources */,
+				096766D41D252144009932E4 /* MainViewController.m in Sources */,
+				096766E21D261F6B009932E4 /* BasciCollectionViewController.m in Sources */,
+				096766D81D2521F0009932E4 /* UIView+LBExtension.m in Sources */,
 				096766A01D251CCC009932E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJ_CollectionView/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = SJ_CollectionView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -425,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SJ_CollectionView/Common/PrefixHeader.pch";
 				INFOPLIST_FILE = SJ_CollectionView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

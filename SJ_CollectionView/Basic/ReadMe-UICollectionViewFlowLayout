@@ -1,0 +1,48 @@
+###   UICollectionViewFlowLayout   ###
+
+1.补充视图类型（页眉 页脚）
+    UICollectionElementKindSectionHeader
+    UICollectionElementKindSectionFooter
+
+2.collectionView 的滚动方向 枚举类型 UICollectionViewScrollDirection
+    UICollectionViewScrollDirectionVertical  ---纵向
+    UICollectionViewScrollDirectionHorizontal ---横向
+
+
+3.UICollectionViewLayout决定了UICollectionView如何显示在界面上，Apple提供了一个最简单的默认layout对象：UICollectionViewFlowLayout
+
+#--- UICollectionViewDelegateFlowLayout ---#
+Flow Layout是一个Cells的线性布局方案，并具有页面和页脚。其可定制的内容如下：
+
+1. itemSize属性
+    设定全局的Cell尺寸，如果想要单独定义某个Cell的尺寸，可以使用下面方法：
+
+    - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+
+2. minimumLineSpacing属性
+    设定全局的行间距，如果想要设定指定区内Cell的最小行距，可以使用下面方法：
+
+    - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
+
+3. minimumInteritemSpacing属性
+    设定全局的Cell间距，如果想要设定指定区内Cell的最小间距，可以使用下面方法：
+
+    - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section;
+
+4. scrollDirection属性
+    设定滚动方向，有UICollectionViewScrollDirectionVertical和UICollectionViewScrollDirectionHorizontal两个值。
+
+5. headerReferenceSize属性与footerReferenceSize属性
+    设定页眉和页脚的全局尺寸，需要注意的是，根据滚动方向不同，header和footer的width和height中只有一个会起作用。如果要单独设置指定区内的页面和页脚尺寸，可以使用下面方法：(如果是纵向滚动，只有高起作用，如果是横向滚动，只有宽起作用)
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section
+
+6. sectionInset属性
+    设定全局的区内边距，如果想要设定指定区的内边距，可以使用下面方法：
+
+    - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section;
+
+7. estimatedItemSize
+
