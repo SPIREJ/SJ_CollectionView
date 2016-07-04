@@ -24,6 +24,8 @@
 		096766F81D265AB0009932E4 /* ReadMe-UICollectionViewCell in Resources */ = {isa = PBXBuildFile; fileRef = 096766F51D265AB0009932E4 /* ReadMe-UICollectionViewCell */; };
 		096766F91D265AB0009932E4 /* ReadMe-UICollectionViewFlowLayout in Resources */ = {isa = PBXBuildFile; fileRef = 096766F61D265AB0009932E4 /* ReadMe-UICollectionViewFlowLayout */; };
 		096766FA1D265AB0009932E4 /* ReadMe-UICollectionViewLayout in Resources */ = {isa = PBXBuildFile; fileRef = 096766F71D265AB0009932E4 /* ReadMe-UICollectionViewLayout */; };
+		096766FE1D267706009932E4 /* PinterestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766FD1D267706009932E4 /* PinterestViewController.m */; };
+		096767011D267B97009932E4 /* WaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 096767001D267B97009932E4 /* WaterLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		096766F51D265AB0009932E4 /* ReadMe-UICollectionViewCell */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReadMe-UICollectionViewCell"; sourceTree = "<group>"; };
 		096766F61D265AB0009932E4 /* ReadMe-UICollectionViewFlowLayout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReadMe-UICollectionViewFlowLayout"; sourceTree = "<group>"; };
 		096766F71D265AB0009932E4 /* ReadMe-UICollectionViewLayout */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ReadMe-UICollectionViewLayout"; sourceTree = "<group>"; };
+		096766FC1D267706009932E4 /* PinterestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestViewController.h; sourceTree = "<group>"; };
+		096766FD1D267706009932E4 /* PinterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestViewController.m; sourceTree = "<group>"; };
+		096766FF1D267B97009932E4 /* WaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterLayout.h; sourceTree = "<group>"; };
+		096767001D267B97009932E4 /* WaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,7 @@
 		0967669D1D251CCC009932E4 /* SJ_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				096766FB1D26760E009932E4 /* Pinterest */,
 				096766EE1D2659CF009932E4 /* Resource */,
 				096766DB1D261EEF009932E4 /* Basic */,
 				096766D91D25229C009932E4 /* Common */,
@@ -213,6 +220,17 @@
 				096766F11D265A09009932E4 /* bgIMGII.png */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		096766FB1D26760E009932E4 /* Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				096766FC1D267706009932E4 /* PinterestViewController.h */,
+				096766FD1D267706009932E4 /* PinterestViewController.m */,
+				096766FF1D267B97009932E4 /* WaterLayout.h */,
+				096767001D267B97009932E4 /* WaterLayout.m */,
+			);
+			path = Pinterest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,9 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				096766A31D251CCC009932E4 /* AppDelegate.m in Sources */,
+				096767011D267B97009932E4 /* WaterLayout.m in Sources */,
 				096766E91D264A8C009932E4 /* HeaderView.m in Sources */,
 				096766D41D252144009932E4 /* MainViewController.m in Sources */,
 				096766E21D261F6B009932E4 /* BasciCollectionViewController.m in Sources */,
+				096766FE1D267706009932E4 /* PinterestViewController.m in Sources */,
 				096766D81D2521F0009932E4 /* UIView+LBExtension.m in Sources */,
 				096766A01D251CCC009932E4 /* main.m in Sources */,
 			);
