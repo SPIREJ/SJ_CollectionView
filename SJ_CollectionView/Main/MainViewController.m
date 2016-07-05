@@ -9,10 +9,11 @@
 #import "MainViewController.h"
 #import "BasciCollectionViewController.h"
 #import "PinterestViewController.h"
+#import "PinterestTwoViewController.h"
 #define cellHeight 70
 
-#define kLabelTitles @[@"1- UICollectionView基础篇", @"2- 瀑布流"]
-#define kDetialLabelText @[@"BasciCollectionViewController", @"PinterestViewController"]
+#define kLabelTitles @[@"1- UICollectionView基础篇", @"2- 瀑布流", @"3- 瀑布流II"]
+#define kDetialLabelText @[@"BasciCollectionViewController", @"PinterestViewController", @"PinterestTwoViewController"]
 
 @interface MainViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, strong) UITableView *tableView;
@@ -89,6 +90,12 @@
             [self.navigationController pushViewController:pinterestVC animated:YES];
         }
             break;
+        case 2:{
+            PinterestTwoViewController *pinterestTwoVC = [[PinterestTwoViewController alloc] init];
+            [self.navigationController pushViewController:pinterestTwoVC animated:YES];
+        }
+            break;
+
         default:
             break;
     }

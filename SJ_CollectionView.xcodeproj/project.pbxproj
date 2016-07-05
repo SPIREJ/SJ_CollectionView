@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093E48C91D2A6D0D00835D65 /* 0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093E48C51D2A6D0D00835D65 /* 0.plist */; };
+		093E48CA1D2A6D0D00835D65 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093E48C61D2A6D0D00835D65 /* 1.plist */; };
+		093E48CB1D2A6D0D00835D65 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093E48C71D2A6D0D00835D65 /* 2.plist */; };
+		093E48CC1D2A6D0D00835D65 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093E48C81D2A6D0D00835D65 /* 3.plist */; };
+		093E48D01D2A6D5F00835D65 /* PhotosWallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E48CE1D2A6D5F00835D65 /* PhotosWallCell.m */; };
+		093E48D11D2A6D5F00835D65 /* PhotosWallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093E48CF1D2A6D5F00835D65 /* PhotosWallCell.xib */; };
+		093E48D41D2B552A00835D65 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E48D31D2B552A00835D65 /* Photos.m */; };
+		093E48D71D2B57D900835D65 /* WaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E48D61D2B57D900835D65 /* WaterFallLayout.m */; };
+		093E48D91D2BA3BB00835D65 /* placehold.gif in Resources */ = {isa = PBXBuildFile; fileRef = 093E48D81D2BA3BB00835D65 /* placehold.gif */; };
+		093E48DC1D2BA44200835D65 /* PinterestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E48DB1D2BA44200835D65 /* PinterestTwoViewController.m */; };
+		093E48DE1D2BB8E200835D65 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 093E48DD1D2BB8E200835D65 /* loading.png */; };
 		096766A01D251CCC009932E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967669F1D251CCC009932E4 /* main.m */; };
 		096766A31D251CCC009932E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766A21D251CCC009932E4 /* AppDelegate.m */; };
 		096766A91D251CCC009932E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096766A71D251CCC009932E4 /* Main.storyboard */; };
@@ -26,6 +37,7 @@
 		096766FA1D265AB0009932E4 /* ReadMe-UICollectionViewLayout in Resources */ = {isa = PBXBuildFile; fileRef = 096766F71D265AB0009932E4 /* ReadMe-UICollectionViewLayout */; };
 		096766FE1D267706009932E4 /* PinterestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096766FD1D267706009932E4 /* PinterestViewController.m */; };
 		096767011D267B97009932E4 /* WaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 096767001D267B97009932E4 /* WaterLayout.m */; };
+		CAC2A0B313A25E80751AE04D /* libPods-SJ_CollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8C6F0AD48A8411A5EF8465 /* libPods-SJ_CollectionView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +58,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		093E48C51D2A6D0D00835D65 /* 0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 0.plist; sourceTree = "<group>"; };
+		093E48C61D2A6D0D00835D65 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		093E48C71D2A6D0D00835D65 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		093E48C81D2A6D0D00835D65 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		093E48CD1D2A6D5F00835D65 /* PhotosWallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosWallCell.h; sourceTree = "<group>"; };
+		093E48CE1D2A6D5F00835D65 /* PhotosWallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosWallCell.m; sourceTree = "<group>"; };
+		093E48CF1D2A6D5F00835D65 /* PhotosWallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosWallCell.xib; sourceTree = "<group>"; };
+		093E48D21D2B552A00835D65 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		093E48D31D2B552A00835D65 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
+		093E48D51D2B57D900835D65 /* WaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
+		093E48D61D2B57D900835D65 /* WaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallLayout.m; sourceTree = "<group>"; };
+		093E48D81D2BA3BB00835D65 /* placehold.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = placehold.gif; sourceTree = "<group>"; };
+		093E48DA1D2BA44200835D65 /* PinterestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestTwoViewController.h; sourceTree = "<group>"; };
+		093E48DB1D2BA44200835D65 /* PinterestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestTwoViewController.m; sourceTree = "<group>"; };
+		093E48DD1D2BB8E200835D65 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		0967669B1D251CCC009932E4 /* SJ_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJ_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0967669F1D251CCC009932E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		096766A11D251CCC009932E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +106,9 @@
 		096766FD1D267706009932E4 /* PinterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestViewController.m; sourceTree = "<group>"; };
 		096766FF1D267B97009932E4 /* WaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterLayout.h; sourceTree = "<group>"; };
 		096767001D267B97009932E4 /* WaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterLayout.m; sourceTree = "<group>"; };
+		15B987AAD798BCD7DA5D2716 /* Pods-SJ_CollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJ_CollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJ_CollectionView/Pods-SJ_CollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		A044F982AFD6A6D1C08C751E /* Pods-SJ_CollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJ_CollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJ_CollectionView/Pods-SJ_CollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		BA8C6F0AD48A8411A5EF8465 /* libPods-SJ_CollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJ_CollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC2A0B313A25E80751AE04D /* libPods-SJ_CollectionView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +137,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093E48C41D2A6CE100835D65 /* Pinterest2 */ = {
+			isa = PBXGroup;
+			children = (
+				093E48C51D2A6D0D00835D65 /* 0.plist */,
+				093E48C61D2A6D0D00835D65 /* 1.plist */,
+				093E48C71D2A6D0D00835D65 /* 2.plist */,
+				093E48C81D2A6D0D00835D65 /* 3.plist */,
+				093E48CD1D2A6D5F00835D65 /* PhotosWallCell.h */,
+				093E48CE1D2A6D5F00835D65 /* PhotosWallCell.m */,
+				093E48CF1D2A6D5F00835D65 /* PhotosWallCell.xib */,
+				093E48D21D2B552A00835D65 /* Photos.h */,
+				093E48D31D2B552A00835D65 /* Photos.m */,
+				093E48D51D2B57D900835D65 /* WaterFallLayout.h */,
+				093E48D61D2B57D900835D65 /* WaterFallLayout.m */,
+				093E48DA1D2BA44200835D65 /* PinterestTwoViewController.h */,
+				093E48DB1D2BA44200835D65 /* PinterestTwoViewController.m */,
+			);
+			path = Pinterest2;
+			sourceTree = "<group>";
+		};
 		096766921D251CCC009932E4 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +164,8 @@
 				096766B71D251CCC009932E4 /* SJ_CollectionViewTests */,
 				096766C21D251CCC009932E4 /* SJ_CollectionViewUITests */,
 				0967669C1D251CCC009932E4 /* Products */,
+				436A8460D72C0BF3EC65638C /* Pods */,
+				DF5AFA75C4C44397EC90DAD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +182,7 @@
 		0967669D1D251CCC009932E4 /* SJ_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				093E48C41D2A6CE100835D65 /* Pinterest2 */,
 				096766FB1D26760E009932E4 /* Pinterest */,
 				096766EE1D2659CF009932E4 /* Resource */,
 				096766DB1D261EEF009932E4 /* Basic */,
@@ -193,6 +247,8 @@
 		096766D91D25229C009932E4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				093E48DD1D2BB8E200835D65 /* loading.png */,
+				093E48D81D2BA3BB00835D65 /* placehold.gif */,
 				096766DA1D2522AA009932E4 /* PrefixHeader.pch */,
 				096766E71D264A8C009932E4 /* HeaderView.h */,
 				096766E81D264A8C009932E4 /* HeaderView.m */,
@@ -233,6 +289,23 @@
 			path = Pinterest;
 			sourceTree = "<group>";
 		};
+		436A8460D72C0BF3EC65638C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B987AAD798BCD7DA5D2716 /* Pods-SJ_CollectionView.debug.xcconfig */,
+				A044F982AFD6A6D1C08C751E /* Pods-SJ_CollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5AFA75C4C44397EC90DAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8C6F0AD48A8411A5EF8465 /* libPods-SJ_CollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 096766C81D251CCC009932E4 /* Build configuration list for PBXNativeTarget "SJ_CollectionView" */;
 			buildPhases = (
+				9DD9689B0DC676F7C613DE45 /* 📦 Check Pods Manifest.lock */,
 				096766971D251CCC009932E4 /* Sources */,
 				096766981D251CCC009932E4 /* Frameworks */,
 				096766991D251CCC009932E4 /* Resources */,
+				6E0083455C6A21C482259E46 /* 📦 Embed Pods Frameworks */,
+				863A0CCD883EB0F327200AE6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,15 +412,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093E48D91D2BA3BB00835D65 /* placehold.gif in Resources */,
 				096766AE1D251CCC009932E4 /* LaunchScreen.storyboard in Resources */,
+				093E48CC1D2A6D0D00835D65 /* 3.plist in Resources */,
 				096766F31D265A09009932E4 /* bgIMG.png in Resources */,
+				093E48CA1D2A6D0D00835D65 /* 1.plist in Resources */,
+				093E48DE1D2BB8E200835D65 /* loading.png in Resources */,
+				093E48CB1D2A6D0D00835D65 /* 2.plist in Resources */,
 				096766F21D265A09009932E4 /* 图1-UICollectionLayout的工作过程.png in Resources */,
 				096766F41D265A09009932E4 /* bgIMGII.png in Resources */,
 				096766AB1D251CCC009932E4 /* Assets.xcassets in Resources */,
 				096766FA1D265AB0009932E4 /* ReadMe-UICollectionViewLayout in Resources */,
 				096766F91D265AB0009932E4 /* ReadMe-UICollectionViewFlowLayout in Resources */,
+				093E48D11D2A6D5F00835D65 /* PhotosWallCell.xib in Resources */,
 				096766A91D251CCC009932E4 /* Main.storyboard in Resources */,
 				096766F81D265AB0009932E4 /* ReadMe-UICollectionViewCell in Resources */,
+				093E48C91D2A6D0D00835D65 /* 0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +447,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E0083455C6A21C482259E46 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJ_CollectionView/Pods-SJ_CollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863A0CCD883EB0F327200AE6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJ_CollectionView/Pods-SJ_CollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD9689B0DC676F7C613DE45 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		096766971D251CCC009932E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093E48D71D2B57D900835D65 /* WaterFallLayout.m in Sources */,
 				096766A31D251CCC009932E4 /* AppDelegate.m in Sources */,
+				093E48DC1D2BA44200835D65 /* PinterestTwoViewController.m in Sources */,
+				093E48D01D2A6D5F00835D65 /* PhotosWallCell.m in Sources */,
+				093E48D41D2B552A00835D65 /* Photos.m in Sources */,
 				096767011D267B97009932E4 /* WaterLayout.m in Sources */,
 				096766E91D264A8C009932E4 /* HeaderView.m in Sources */,
 				096766D41D252144009932E4 /* MainViewController.m in Sources */,
@@ -515,6 +650,7 @@
 		};
 		096766C91D251CCC009932E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B987AAD798BCD7DA5D2716 /* Pods-SJ_CollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SJ_CollectionView/Common/PrefixHeader.pch";
@@ -528,6 +664,7 @@
 		};
 		096766CA1D251CCC009932E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A044F982AFD6A6D1C08C751E /* Pods-SJ_CollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SJ_CollectionView/Common/PrefixHeader.pch";
@@ -604,6 +741,7 @@
 				096766CA1D251CCC009932E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		096766CB1D251CCC009932E4 /* Build configuration list for PBXNativeTarget "SJ_CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -612,6 +750,7 @@
 				096766CD1D251CCC009932E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		096766CE1D251CCC009932E4 /* Build configuration list for PBXNativeTarget "SJ_CollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -620,6 +759,7 @@
 				096766D01D251CCC009932E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
